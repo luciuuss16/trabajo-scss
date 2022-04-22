@@ -1,0 +1,36 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans';
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.header {
+    background-color: blueviolet;
+    border-radius: 10px;
+    display: block;
+    margin: 5px;
+}
+section {
+    background-color: blueviolet;
+    width: auto;
+}
+section h2 {
+    font-family: Arial;
+    font-size: 40px;
+}
+section div {
+    display: flex;
+    justify-content: center;
+    background-color: orangered;
+}
+section div p {
+    color: green;
+}
+@media screen and (min-width: 1200px) {
+    section {
+        background-color: yellow;
+    }
+}

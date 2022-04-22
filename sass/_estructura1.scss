@@ -1,0 +1,21 @@
+.header {
+    background-color: coral;
+    width: 100%;
+    & &_menu {
+        display: flex;
+        ul {
+            font: {
+                family: arial;
+                weight: 350;
+            }
+            li {
+                a {
+                    color: $colorSecundario;
+                    &:hover {
+                        color:greenyellow
+                    }                    
+                }
+            }
+        }
+    }
+}
